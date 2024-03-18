@@ -3,3 +3,52 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.infor-header {
+    display: flex;
+    align-items: center;
+	height: 40px ;
+	gap: 8px;
+	padding: 4px 8px;
+}
+
+.infor-header--left btn {
+
+}
+
+.infor-header--right {
+	margin-left: auto;
+}
+.infor-header--right button {
+	background-color: gainsboro;
+	color: black;
+	padding: 4px;
+}
+.socials-list{
+    margin-left: 10px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.socials-list .btn {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	font-size: 18px;
+}
+
+.search {
+	display: flex;
+}
+
+.search input[type="search"] {
+    width: 100%;
+}
+.search button {
+}
+
+.banner-wrapper {
+	margin-top: 8px;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
